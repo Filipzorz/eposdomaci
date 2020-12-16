@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fifa vs Pes | Anketa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="menu container">
+            <a href="index.html">Home</a>
+            <a href="onama.html">Fifa vs Pes</a>
+            <a href="galerija.html">Gallery</a>
+            <a href="anketa.html">Anketa</a>
+        </nav>
+
+
+    </header>
+    <div class="kontakt">
+        <div class="kontakt-university container">
+
+            <h2 style="text-align: center;">Kontakt</h2>
+            <p style="text-align: center;">Popuni anketu i učestvuj u nagradnoj igri!</p>
+        </div>
+        <div class="kontakt-sadrzaj">
+            <div class="kontakt-forma">
+                    <form id="kontaktForma">
+                            <div>
+                                <label for="kontaktMejl">Email</label>
+                                <input type="email" id="email" required placeholder="Unesi email ...">
+                            </div>
+                            <div>
+                                <label for="status">Izaberi najbolju verziju</label>
+                                <select id="status">
+                                    <option>PES 2006</option>
+                                    <option>FIFA 07</option>
+                                    <option>PES 16</option>
+                                    <option>FIFA 20</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="poruka">Napiši zašto ti je baš ta verzija omiljena!</label>
+                                <textarea  id="poruka" rows="3"></textarea>
+                            </div>
+                            <div>
+                                <label for="antispam">Zbir dva broja je...</label>
+                              <div class="flex"><span id="broj1"></span> + 
+                                <span id="broj2"></span> = <input type="number" required id="antispam" />
+                            </div>
+                            </div>
+                            <button type="submit" class="btn">Pošalji</button>
+                        </form>
+            </div>
+        </div>
+    </div>
+    <footer class="container futer">
+        <p>Copyright <span id="godina"></span> &copy; Veljko, Žorž i Luka</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/kontakt.js"></script>
+</body>
+
+</html>
